@@ -12,8 +12,7 @@ fn window_conf() -> Conf {
 #[macroquad::main(window_conf)]
 async fn main() {
     loop {
-        git add .
-        git commit -m "Initial commit"   clear_background(DARKPURPLE);
+        clear_background(DARKPURPLE);
         next_frame().await
     }
 }
